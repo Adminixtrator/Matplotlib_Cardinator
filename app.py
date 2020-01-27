@@ -18,6 +18,10 @@ while True:
     print('''\n\t -----------------------\n\t| MATPLOTLIB CARDINATOR |
 \t -----------------------\n\n
 ****This is an evaluation build of the Matplotlib Cardinator v1.0****\n\n''')
+
+    print('''\n Created by: ADMINIXTRATOR             Date: 28th August, 2019
+ Twitter: Adminixtrator                Email: minixtrator@gmail.com\n\n''')
+
     print('''[1.] Random Graph\n[2.] Line Graph \n[3.] Pie Chart\n[4.] Bar Chart\n[5.] Histogram\n[6.] Scatter plot\n[7.] Box plot
 [8.] Triangulation Plot\n\n****Coming Soon****\n[9.] 3D Plot\n[10.] Plot from File\n''')
     #   QUERY-----------------
@@ -1249,7 +1253,7 @@ Type:\n'''))
         elif asd == '6':
             #   INPUT------------
             l1 = str(input('''Please enter the labels with respective values-------
-----------Pressing enter after each input. E.g\nKenya\n15\nTokyo\n35\ne.t.c\n\nInput:\n''')); d1 = int(input()); l2 = str(input()); d2 = int(input()); l3 = str(input()); d3 = int(input())
+----------Pressing enter after each input. E.g\nKenya\n15\nTokyo\n35\ne.t.c\n\nInput:\n''')); d1 = int(input()); l2 = str(input()); d2 = int(input()); l3 = str(input()); d3 = int(input());
             l4 = str(input()); d4 = int(input()); l5 = str(input()); d5 = int(input()); l6 = str(input()); d6 = int(input())
             #   PLOTTER----------
             data = [d1,d2,d3,d4,d5,d6]; plt.pie(data); plt.title(title); plt.legend([l1,l2,l3,l4,l5,l6]); plt.show()
@@ -2912,6 +2916,10 @@ Please bear with us.''')
 #   _____________________________________________________________________________________________________       
 #   _____________________________________________________________________________________________________    
 #
+#--------------------------------------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------| EXIT |---------------------------------------------------------------------
+    elif asd == 'exit':
+        break
 #   _____________________________________________________________________________________________________       
 #   _____________________________________________________________________________________________________        
 #   eXCEPTION
@@ -2922,5 +2930,3 @@ Please bear with us.''')
     
     
     
-    
-
